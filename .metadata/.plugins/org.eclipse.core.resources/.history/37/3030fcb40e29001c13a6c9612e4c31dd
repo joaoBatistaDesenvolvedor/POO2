@@ -1,0 +1,32 @@
+import java.util.List;
+
+public class TotalSumVisitor implements NumberVisitor{
+	int totalsum;
+	@Override
+	public void vist(TwoElement twoElement) {
+		int soma=twoElement.a+twoElement.b;
+		System.out.println("a soma de "+twoElement.a+"+"+twoElement.b+"a soma"+soma);
+		totalsum+=soma;	
+	}
+
+	@Override
+	public void vist(ThereeElement threeElement) {
+		int soma=threeElement.a+threeElement.b+threeElement.c;
+		System.out.println("a soma de "+threeElement.a+"+"+threeElement.b+threeElement.c+"a sopma"+soma);
+		totalsum+=soma;
+	}
+
+	@Override
+	public void vist(List<NumberElement> elementList) {
+		for (NumberElement ne : elementList) {
+			ne.acept(this);		
+	}
+		
+	}
+
+	public int getTotalsum() {
+		return totalsum;
+	}
+
+
+}
