@@ -1,0 +1,22 @@
+import java.util.ArrayList;
+
+public class Document {
+	ArrayList<String> textArray=new ArrayList<String>();
+	public void write(String text) {
+			textArray.add(text);
+			
+		
+	}
+	public void erase(String text) {
+		textArray.remove(text);
+		
+	}
+	public String readDocument() {
+		StringBuilder sb =new StringBuilder();
+		for (String text : textArray) {
+			sb.append(text);
+			
+		}
+		return sb.toString();
+	}
+}

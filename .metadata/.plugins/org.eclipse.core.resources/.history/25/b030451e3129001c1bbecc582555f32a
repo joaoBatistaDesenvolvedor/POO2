@@ -1,0 +1,28 @@
+
+import java.util.ArrayList;
+
+public class DocumentInvoker{
+
+	private ArrayList<Command> commands=new ArrayList<Command>();
+	private Document doc=new Document();
+	
+	public void redo(int level) {
+		System.out.println("redo {0} level"+level);
+			commands.get(level).redo();
+			
+	}
+	
+	public void undo (int level) {
+		System.out.println("redo {0} level"+level);
+		commands.get(level).undo();
+		
+	}
+	public void write(String text) {
+		DocumentEditCommand cmd =new DocumentEditCommand(doc,text);
+		commands.add(cmd);
+	}
+	public void erase(String text) {
+		
+	}
+	
+}

@@ -1,0 +1,23 @@
+
+public class DocumentEditCommand implements Command{
+	private Document docEdit=new Document();
+	private String text;
+	
+	public DocumentEditCommand(Document doc,String text) {
+		this.docEdit=doc;
+		this.text=text;
+		this.docEdit.write(text);
+	}
+	@Override
+	public void redo() {
+		this.docEdit.write(text);
+		
+	}
+
+	@Override
+	public void undo() {
+		docEdit.erase(text);
+		
+	}
+
+}

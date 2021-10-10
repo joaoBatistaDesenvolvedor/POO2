@@ -1,0 +1,14 @@
+
+public class App {
+public static void main(String[] args) {
+	DocumentInvoker instance= new DocumentInvoker();
+	instance.write("isto é a apenas um texto");
+	instance.undo(1);
+	instance.redo(1);
+	
+	instance.write("mais um texto");
+	instance.undo(2);
+	instance.redo(2); 
+	instance.undo(1);
+	}
+}

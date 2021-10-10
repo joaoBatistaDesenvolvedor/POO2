@@ -1,0 +1,21 @@
+
+public class DocumentEditCommand implements Command{
+	private Document docEdit=new Document();
+	private String text;
+	
+	public DocumentEditCommand() {
+		// TODO Auto-generated constructor stub
+	}
+	@Override
+	public void redo() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void undo() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}
