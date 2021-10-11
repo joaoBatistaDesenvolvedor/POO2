@@ -1,0 +1,11 @@
+package noPattern;
+
+public class NoPatterApp {
+public static void main(String[] args) {
+	ImplementaSoma2 nros=new ImplementaSoma2();
+	
+	nros.setN1(5);
+	nros.setN2(2);
+	System.out.printf("a soma de %d + %d e  = %d",nros.getN1(),nros.getN2(),nros.somar());
+}
+}

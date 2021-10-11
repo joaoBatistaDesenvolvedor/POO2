@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="TwoElement"/>
+    <fullyQualifiedTypeName name="ThereeElement"/>
+    <fullyQualifiedTypeName name="NumberElement"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="SumVistor"/>
+    <fullyQualifiedTypeName name="ToatalSumVisitor"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="Mult"/>
+    <fullyQualifiedTypeName name="NumberVisitor"/>
+    <fullyQualifiedTypeName name="noPattern.Somar2"/>
+    <fullyQualifiedTypeName name="noPattern.ImplementaSoma2"/>
+    <fullyQualifiedTypeName name="noPattern.ImplementaSoma3"/>
+    <fullyQualifiedTypeName name="noPattern.mult3"/>
+    <fullyQualifiedTypeName name="noPattern.ImplementaMult2"/>
+    <fullyQualifiedTypeName name="noPattern.mult2"/>
+    <fullyQualifiedTypeName name="noPattern.implementamult3"/>
+</qualifiedTypeNameHistroy>

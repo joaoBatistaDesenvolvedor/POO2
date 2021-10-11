@@ -1,7 +1,8 @@
+content_assist_lru_history=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><history maxLHS\="100" maxRHS\="10"><lhs name\="NumberElement"><rhs name\="TwoElement"/><rhs name\="ThereeElement"/></lhs><lhs name\="TwoElement"><rhs name\="TwoElement"/></lhs><lhs name\="ThereeElement"><rhs name\="ThereeElement"/></lhs><lhs name\="java.util.Collection"><rhs name\="java.util.ArrayList"/></lhs><lhs name\="java.lang.Iterable"><rhs name\="java.util.ArrayList"/></lhs><lhs name\="java.util.List"><rhs name\="java.util.ArrayList"/></lhs><lhs name\="NumberVisitor"><rhs name\="SumVistor"/><rhs name\="ToatalSumVisitor"/></lhs><lhs name\="ToatalSumVisitor"><rhs name\="ToatalSumVisitor"/></lhs><lhs name\="noPattern.Somar2"><rhs name\="noPattern.ImplementaSoma2"/></lhs><lhs name\="noPattern.ImplementaSoma2"><rhs name\="noPattern.ImplementaSoma2"/></lhs><lhs name\="noPattern.somar3"><rhs name\="noPattern.ImplementaSoma3"/></lhs><lhs name\="noPattern.ImplementaSoma3"><rhs name\="noPattern.ImplementaSoma3"/></lhs><lhs name\="noPattern.mult3"><rhs name\="noPattern.implementamult3"/></lhs><lhs name\="noPattern.implementamult3"><rhs name\="noPattern.implementamult3"/></lhs><lhs name\="noPattern.mult2"><rhs name\="noPattern.ImplementaMult2"/></lhs><lhs name\="noPattern.ImplementaMult2"><rhs name\="noPattern.ImplementaMult2"/></lhs></history>
 content_assist_number_of_computers=13
-content_assist_proposals_background=39,42,52
-content_assist_proposals_foreground=255,255,255
 eclipse.preferences.version=1
+org.eclipse.jdt.internal.ui.navigator.layout=2
+org.eclipse.jdt.internal.ui.navigator.librariesnode=true
 org.eclipse.jdt.ui.formatterprofiles.version=21
 spelling_locale_initialized=true
 useAnnotationsPrefPage=true

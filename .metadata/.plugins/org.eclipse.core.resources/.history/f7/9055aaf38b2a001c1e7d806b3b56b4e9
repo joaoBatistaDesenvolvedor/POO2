@@ -1,0 +1,9 @@
+package noPattern;
+
+public class NoPatterApp {
+public static void main(String[] args) {
+	ImplementaSoma2 nros=new ImplementaSoma2(2, 2);
+	
+	int soma=nros.setN1(2);
+}
+}

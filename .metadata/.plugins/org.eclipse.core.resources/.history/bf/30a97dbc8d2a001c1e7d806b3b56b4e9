@@ -1,0 +1,18 @@
+package noPattern;
+
+public class NoPatterApp {
+public static void main(String[] args) {
+	ImplementaSoma2 nros=new ImplementaSoma2();
+	ImplementaSoma3 nros3=new ImplementaSoma3();
+	
+	nros.setN1(5);
+	nros.setN2(2);
+	System.out.printf("a soma de 2 numeros  de %d + %d e  = %d \n",nros.getN1(),nros.getN2(),nros.somar());
+	nros3.setN1(1);
+	nros3.setN2(1);
+	nros3.setN3(1);
+	System.out.printf("a soma de 3 numeros: de %d + %d  +%d  = %d \n",nros3.getN1(),nros3.getN2(),nros3.somar());
+	
+	
+}
+}

@@ -1,0 +1,6 @@
+package noPattern;
+
+public interface somar3 {
+	int somar(int n1,int n2,int n3);
+	
+}
